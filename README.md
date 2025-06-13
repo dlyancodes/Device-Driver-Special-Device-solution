@@ -1,2 +1,8 @@
 # Device-Driver-Special-Device-solution
-Device Driver – Special Device solution
+
+Download Here: [Device Driver – Special Device solution](https://jarviscodinghub.com/assignment/device-driver-special-device-solution/)
+
+For Custom/Original Work email jarviscodinghub@gmail.com/whatsapp +1(541)423-7793
+
+Build a module that creates a special character device named /dev/ prime, for example /dev/michel time(). 1 The entry must use a dynamically allocated major device number. It must behave as if it were an infinitely long file filled with successive prime numbers. As much data as you would ty to read from /dev/prime, the system generates enough successive prime numbers starting from number 2. Using the test program test.c, you should observe the following behavior: $ sudo insmod michel_prime.ko $ ls -l /dev/michel_prime crw——- 1 root root 244, 0 Jan 29 14:45 /dev/michel_prime sudo ./test 5 test started Reading 5 prime number(s) 2 3 5 7 11 $ sudo ./test 100 test started Reading 100 prime number(s) 2 3 5 … 523 541 $ sudo rmmod michel_prime.ko $ ls -l /dev/prime ls: cannot access ’/dev/prime’: No such file or directory 1Use your cuLearn first name. 1 When the module is uninstalled, the special character device must be removed from the system. Due date: February 11. Submit you work on cuLearn. This exercise must be done in the C programming language under Linux kernel 4.4 (Ubuntu 16.04 has it). Submit a single tar.gz file. You are responsible for the completeness of your submission. You are responsible for submitting your work on time. Source code and a make file must be included. Submissions that do not compile are not accepted. 2
+
